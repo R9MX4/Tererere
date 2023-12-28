@@ -1,0 +1,20 @@
+shape: Blob
+blobSize:
+  min: 2.5
+  max: 3.5
+
+forceBiome: biomes/Terr/LakeDry
+biomeTags:
+  - Terr_Pacu_1
+  - Terr_PacuCleaner_0
+  - Terr_MealWoodSeed_1
+  - Terr_ArborAcorn_1
+
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: CarbonDioxide
+        weight: 3
+        overrides:
+          massOverride: 15

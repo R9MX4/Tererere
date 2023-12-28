@@ -1,0 +1,1189 @@
+MobLookupTable:
+  # keys to remove from in-memory structure when this file is loaded
+  remove: [] 
+  # elements to add from in-memory structure when this file is loaded
+  add:
+#   Water,Solid   Air/Food  Floor/Ceiling   LiquidFloor
+#0  1-2             2-3         05-10           10-15
+#1  2-3             3-5         10-20           15-25
+#2  3-5             05-10       20-30           25-40
+#3                              30-50           40-60
+#发光虫
+    Terr_LightBug_0:
+      prefabName: LightBug
+      location: Air
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_LightBug_1:
+      prefabName: LightBug
+      location: Air
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+    Terr_LightBug_2:
+      prefabName: LightBug
+      location: Air
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_LightBugOrange_0:
+      prefabName: LightBugOrange
+      location: Air
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_LightBugOrange_1:
+      prefabName: LightBugOrange
+      location: Air
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+    Terr_LightBugOrange_2:
+      prefabName: LightBugOrange
+      location: Air
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+#哈奇
+    Terr_HatchBuried_0:
+      prefabName: Hatch
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.003
+        max: 0.006
+      width: 1
+      height: 1
+    Terr_HatchBuried_1:
+      prefabName: Hatch
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.005
+        max: 0.010
+      width: 1
+      height: 1
+    Terr_HatchBuried_2:
+      prefabName: Hatch
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.010
+        max: 0.015
+      width: 1
+      height: 1
+    Terr_HatchStoneBuried_0:
+      prefabName: HatchHard
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.003
+        max: 0.006
+      width: 1
+      height: 1
+    Terr_HatchStoneBuried_1:
+      prefabName: HatchHard
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.005
+        max: 0.010
+      width: 1
+      height: 1
+    Terr_HatchStoneBuried_2:
+      prefabName: HatchHard
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.010
+        max: 0.015
+      width: 1
+      height: 1
+    Terr_HatchMetalBuried_0:
+      prefabName: HatchMetal
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.003
+        max: 0.006
+      width: 1
+      height: 1
+    Terr_HatchMetalBuried_1:
+      prefabName: HatchMetal
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.005
+        max: 0.010
+      width: 1
+      height: 1
+    Terr_HatchMetalBuried_2:
+      prefabName: HatchMetal
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.010
+        max: 0.015
+      width: 1
+      height: 1
+    Terr_HatchSageBuried_0:
+      prefabName: HatchVeggie
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.003
+        max: 0.006
+      width: 1
+      height: 1
+    Terr_HatchSageBuried_1:
+      prefabName: HatchVeggie
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.005
+        max: 0.010
+      width: 1
+      height: 1
+    Terr_HatchSageBuried_2:
+      prefabName: HatchVeggie
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.010
+        max: 0.015
+      width: 1
+      height: 1
+#抛壳蟹
+    Terr_Crab_0:
+      prefabName: Crab
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.15
+      width: 1
+      height: 1
+    Terr_Crab_1:
+      prefabName: Crab
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.15
+        max: 0.25
+      width: 1
+      height: 1
+    Terr_Crab_2:
+      prefabName: Crab
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.25
+        max: 0.40
+      width: 1
+      height: 1
+    Terr_Crab_3:
+      prefabName: Crab
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.40
+        max: 0.60
+      width: 1
+      height: 1
+#帕库鱼
+    Terr_Pacu_0:
+      prefabName: Pacu
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_Pacu_1:
+      prefabName: Pacu
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_Pacu_2:
+      prefabName: Pacu
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+    Terr_PacuTropical_0:
+      prefabName: PacuTropical
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_PacuTropical_1:
+      prefabName: PacuTropical
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_PacuTropical_2:
+      prefabName: PacuTropical
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+    Terr_PacuCleaner_0:
+      prefabName: PacuCleaner
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_PacuCleaner_1:
+      prefabName: PacuCleaner
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_PacuCleaner_2:
+      prefabName: PacuCleaner
+      location: Water
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#氧齿蕨
+    Terr_Oxyfern_0:
+      prefabName: Oxyfern
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_Oxyfern_1:
+      prefabName: Oxyfern
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_Oxyfern_2:
+      prefabName: Oxyfern
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_Oxyfern_3:
+      prefabName: Oxyfern
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_OxyfernSeed_0:
+      prefabName: OxyfernSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_OxyfernSeed_1:
+      prefabName: OxyfernSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_OxyfernSeed_2:
+      prefabName: OxyfernSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1      
+#毛刺花
+    Terr_PrickleFlower_0:
+      prefabName: PrickleFlower
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_PrickleFlower_1:
+      prefabName: PrickleFlower
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_PrickleFlower_2:
+      prefabName: PrickleFlower
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_PrickleFlower_3:
+      prefabName: PrickleFlower
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_PrickleFlowerSeed_0:
+      prefabName: PrickleFlowerSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_PrickleFlowerSeed_1:
+      prefabName: PrickleFlowerSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_PrickleFlowerSeed_2:
+      prefabName: PrickleFlowerSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#冰霜小麦
+    Terr_ColdWheatr_0:
+      prefabName: ColdWheat
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_ColdWheatr_1:
+      prefabName: ColdWheat
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_ColdWheatr_2:
+      prefabName: ColdWheat
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_ColdWheatr_3:
+      prefabName: ColdWheat
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_ColdWheatrSeed_0:
+      prefabName: ColdWheat
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_ColdWheatrSeed_1:
+      prefabName: ColdWheat
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_ColdWheatrSeed_2:
+      prefabName: ColdWheat
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#米虱木
+    Terr_MealWood_0:
+      prefabName: BasicSingleHarvestPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_MealWood_1:
+      prefabName: BasicSingleHarvestPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_MealWood_2:
+      prefabName: BasicSingleHarvestPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_MealWood_3:
+      prefabName: BasicSingleHarvestPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_MealWoodSeed_0:
+      prefabName: BasicSingleHarvestPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_MealWoodSeed_1:
+      prefabName: BasicSingleHarvestPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1
+    Terr_MealWoodSeed_2:
+      prefabName: BasicSingleHarvestPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#乔木树
+    Terr_ForestTree_0:
+      prefabName: ForestTree
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 2
+    Terr_ForestTree_1:
+      prefabName: ForestTree
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 2
+    Terr_ForestTree_2:
+      prefabName: ForestTree
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 2
+    Terr_ForestTree_3:
+      prefabName: ForestTree
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 2
+    Terr_ArborAcorn_0:
+      prefabName: ForestTreeSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_ArborAcorn_1:
+      prefabName: ForestTreeSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_ArborAcorn_2:
+      prefabName: ForestTreeSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#火椒藤
+    Terr_Pepper_0:
+      prefabName: SpiceVine
+      location: Ceiling
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 2
+    Terr_Pepper_1:
+      prefabName: SpiceVine
+      location: Ceiling
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 2
+    Terr_Pepper_2:
+      prefabName: SpiceVine
+      location: Ceiling
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 2
+    Terr_Pepper_3:
+      prefabName: SpiceVine
+      location: Ceiling
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 2
+    Terr_PepperSeed_0:
+      prefabName: SpiceVineSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_PepperSeed_1:
+      prefabName: SpiceVineSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_PepperSeed_2:
+      prefabName: SpiceVineSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#诱人荆棘
+    Terr_PrickleGrass_0:
+      prefabName: PrickleGrass
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_PrickleGrass_1:
+      prefabName: PrickleGrass
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_PrickleGrass_2:
+      prefabName: PrickleGrass
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_PrickleGrass_3:
+      prefabName: PrickleGrass
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_PrickleGrassSeed_0:
+      prefabName: PrickleGrassSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1 
+    Terr_PrickleGrassSeed_1:
+      prefabName: PrickleGrassSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_PrickleGrassSeed_2:
+      prefabName: PrickleGrassSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+#欢乐叶
+    Terr_MirthLeaf_0:
+      prefabName: LeafyPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_MirthLeaf_1:
+      prefabName: LeafyPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_MirthLeaf_2:
+      prefabName: LeafyPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_MirthLeaf_3:
+      prefabName: LeafyPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_MirthLeafSeed_0:
+      prefabName: LeafyPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1 
+    Terr_MirthLeafSeed_1:
+      prefabName: LeafyPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_MirthLeafSeed_2:
+      prefabName: LeafyPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+#雀跃掌
+    Terr_JumpingJoya_0:
+      prefabName: CactusPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_JumpingJoya_1:
+      prefabName: CactusPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_JumpingJoya_2:
+      prefabName: CactusPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_JumpingJoya_3:
+      prefabName: CactusPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_JumpingJoyaSeed_0:
+      prefabName: CactusPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1 
+    Terr_JumpingJoyaSeed_1:
+      prefabName: CactusPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_JumpingJoyaSeed_2:
+      prefabName: CactusPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+#水草
+    Terr_WaterWeed_0:
+      prefabName: SeaLettuce
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.15
+      width: 1
+      height: 1
+    Terr_WaterWeed_1:
+      prefabName: SeaLettuce
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.15
+        max: 0.25
+      width: 1
+      height: 1
+    Terr_WaterWeed_2:
+      prefabName: SeaLettuce
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.25
+        max: 0.40
+      width: 1
+      height: 1
+    Terr_WaterWeed_3:
+      prefabName: SeaLettuce
+      location: LiquidFloor
+      selectMethod: Centroid
+      density:
+        min: 0.40
+        max: 0.60
+      width: 1
+      height: 1
+    Terr_WaterWeedSeed_0:
+      prefabName: SeaLettuceSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1 
+    Terr_WaterWeedSeed_1:
+      prefabName: SeaLettuceSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_WaterWeedSeed_2:
+      prefabName: SeaLettuceSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+#同伴芽
+    Terr_BuddyBud_0:
+      prefabName: BulbPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_BuddyBud_1:
+      prefabName: BulbPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_BuddyBud_2:
+      prefabName: BulbPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_BuddyBud_3:
+      prefabName: BulbPlant
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_BuddyBudSeed_0:
+      prefabName: BulbPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1 
+    Terr_BuddyBudSeed_1:
+      prefabName: BulbPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_BuddyBudSeed_2:
+      prefabName: BulbPlantSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+#淤泥根
+    Terr_Muckroot_0:
+      prefabName: BasicForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_Muckroot_1:
+      prefabName: BasicForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_Muckroot_2:
+      prefabName: BasicForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_Muckroot_3:
+      prefabName: BasicForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_MuckrootBuried_0:
+      prefabName: BasicForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_MuckrootBuried_1:
+      prefabName: BasicForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+    Terr_MuckrootBuried_2:
+      prefabName: BasicForagePlant
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+#六角根
+    Terr_Hexalent_0:
+      prefabName: ForestForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_Hexalent_1:
+      prefabName: ForestForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_Hexalent_2:
+      prefabName: ForestForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_Hexalent_3:
+      prefabName: ForestForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_HexalentBuried_0:
+      prefabName: ForestForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1
+    Terr_HexalentBuried_1:
+      prefabName: ForestForagePlantPlanted
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1 
+    Terr_HexalentBuried_2:
+      prefabName: ForestForagePlant
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1
+#冰息萝卜
+    Terr_ColdBreather_0:
+      prefabName: ColdBreather
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.05
+        max: 0.10
+      width: 1
+      height: 1
+    Terr_ColdBreather_1:
+      prefabName: ColdBreather
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.10
+        max: 0.20
+      width: 1
+      height: 1
+    Terr_ColdBreather_2:
+      prefabName: ColdBreather
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.20
+        max: 0.30
+      width: 1
+      height: 1
+    Terr_ColdBreather_3:
+      prefabName: ColdBreather
+      location: Floor
+      selectMethod: Centroid
+      density:
+        min: 0.30
+        max: 0.50
+      width: 1
+      height: 1
+    Terr_ColdBreatherSeed_0:
+      prefabName: ColdBreatherSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.01
+        max: 0.02
+      width: 1
+      height: 1 
+    Terr_ColdBreatherSeed_1:
+      prefabName: ColdBreatherSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.02
+        max: 0.03
+      width: 1
+      height: 1 
+    Terr_ColdBreatherSeed_2:
+      prefabName: ColdBreatherSeed
+      location: Solid
+      selectMethod: Centroid
+      density:
+        min: 0.03
+        max: 0.05
+      width: 1
+      height: 1

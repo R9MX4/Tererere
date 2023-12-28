@@ -1,0 +1,46 @@
+biomeNoise: noise/Sandstone
+temperatureRange: Room
+minChildCount: 4
+density:
+  min: 10
+  max: 15
+avoidRadius: 10.0
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_OganicSoft
+borderSizeOverride:
+ min: 0.8
+ max: 1.5
+
+biomes:
+  - name: biomes/Terr/StoneHole
+    weight: 1
+    tags:
+      - Terr_LightBug_0
+      - Terr_HatchBuried_0
+      - Terr_PrickleGrassSeed_1
+      - Terr_Muckroot_1
+      - Terr_MuckrootBuried_2
+  - name: biomes/Terr/StoneMetal
+    weight: 1
+    tags:
+      - Terr_HatchBuried_1
+      - Terr_HatchMetalBuried_1
+      - Terr_MuckrootBuried_1
+  - name: biomes/Terr/StoneWet
+    weight: 1
+    tags:   
+      - Terr_LightBug_1
+      - Terr_LightBugOrange_0
+      - Terr_PrickleFlower_1
+      - Terr_PrickleFlowerSeed_2
+      - Terr_MirthLeaf_1
+      - Terr_MirthLeafSeed_2
+features:
+  - type: features/Terr/StoneLake
+subworldTemplateRules:
+  - names:
+    - expansion1::poi/aquatic/small_oxylite_geode
+    listRule: TryAll
+zoneType: Sandstone

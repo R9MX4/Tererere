@@ -1,0 +1,35 @@
+biomeNoise: noise/Sandstone
+temperatureRange: Room
+tags:
+  - IgnoreCaveOverride
+density:
+  min: 3
+  max: 5
+avoidRadius: 10.0
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: NONE
+
+biomes:
+  - name: biomes/Terr/Stone
+    weight: 3
+    tags:
+      - Terr_Oxyfern_0
+      - Terr_HatchBuried_0
+      - Terr_ForestTree_2
+      - Terr_ArborAcorn_2
+      - Terr_MealWood_2
+      - Terr_MealWoodSeed_2
+      - Terr_PrickleGrass_1
+      - Terr_PrickleGrassSeed_1
+      - Terr_MuckrootBuried_1
+  - name: biomes/Terr/StoneMetal
+    weight: 1
+    tags:
+      - Terr_HatchBuried_1
+      - Terr_Muckroot_1
+      - Terr_MuckrootBuried_1
+features:
+  - type: features/Terr/StoneChamber
+zoneType: Sandstone

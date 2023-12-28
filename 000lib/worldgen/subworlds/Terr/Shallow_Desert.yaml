@@ -1,0 +1,43 @@
+biomeNoise: noise/Sandstone
+temperatureRange: HumanHot
+minChildCount: 4
+density:
+  min: 5
+  max: 7
+avoidRadius: 10.0
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_RockyHard
+borderSizeOverride:
+ min: 1
+ max: 1.5
+ 
+biomes:
+  - name: biomes/Terr/DesertSand
+    weight: 1
+    tags:
+      - Terr_HatchBuried_1
+      - Terr_JumpingJoya_0
+      - Terr_JumpingJoyaSeed_2
+      - Terr_Hexalent_0
+      - Terr_HexalentBuried_2
+  - name: biomes/Terr/DesertSoft
+    weight: 1
+    tags:
+      - Terr_HatchBuried_1
+      - Terr_PrickleGrass_0
+      - Terr_PrickleGrassSeed_1
+      - Terr_MuckrootBuried_2
+  - name: biomes/Terr/DesertHard
+    weight: 1
+    tags:
+      - Terr_HatchBuried_0
+      - Terr_HatchStoneBuried_1
+      - Terr_PrickleGrassSeed_1
+      - Terr_HexalentBuried_1
+subworldTemplateRules:
+  - names:
+    - expansion1::poi/aquatic/oasis
+    listRule: TryAll
+zoneType: Rust

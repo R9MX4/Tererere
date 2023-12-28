@@ -1,0 +1,440 @@
+TerrainBiomeLookupTable:
+  # keys to remove from in-memory structure when this file is loaded
+  remove: [] 
+  # elements to add from in-memory structure when this file is loaded
+  add:
+    Air:
+    - content: Oxygen
+      bandSize: 1
+      overrides:
+        massOverride: 1.2
+    DirtyAir:
+    - content: ContaminatedOxygen
+      bandSize: 0.2
+    - content: Oxygen
+      bandSize: 1
+    Stone:
+    - content: SandStone
+      bandSize: 0.2
+    - content: Dirt
+      bandSize: 0.2
+    - content: Carbon
+      bandSize: 0.2
+    - content: AluminumOre
+      bandSize: 0.1
+    - content: CarbonDioxide   
+      bandSize: 0.1
+    - content: Sand
+      bandSize: 0.2
+    - content: OxyRock
+      bandSize: 0.1
+    StoneHole:
+    - content: Granite
+      bandSize: 0.1
+    - content: Carbon
+      bandSize: 0.1
+    - content: SandStone
+      bandSize: 0.1
+    - content: IronOre
+      bandSize: 0.2
+      overrides:
+        massMultiplier: 0.5
+    - content: AluminumOre
+      bandSize: 0.2
+      overrides:
+        massMultiplier: 0.7
+    - content: Dirt
+      bandSize: 0.2
+    - content: Algae
+      bandSize: 0.3
+    - content: Vacuum
+      bandSize: 0.3
+    StoneGas:
+    - content: Dirt
+      bandSize: 0.1
+    - content: Algae
+      bandSize: 0.1
+    - content: SandStone
+      bandSize: 0.1
+    - content: OxyRock
+      bandSize: 0.1
+    - content: Oxygen   
+      bandSize: 0.2
+      overrides:
+        massMultiplier: 2
+    - content: CarbonDioxide
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 10
+    - content: Clay
+      bandSize: 0.1
+    StoneWet:
+    - content: SedimentaryRock
+      bandSize: 0.1
+    - content: Sand
+      bandSize: 0.1
+    - content: SandStone
+      bandSize: 0.1
+    - content: Dirt
+      bandSize: 0.1
+    - content: Algae
+      bandSize: 0.1
+    - content: Rust
+      bandSize: 0.1
+    - content: Water   
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 0.5
+    - content: Vacuum
+      bandSize: 0.1
+    StoneWater:
+    - content: Water   
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 1.1
+    - content: Fertilizer
+      bandSize: 0.1
+    - content: Rust
+      bandSize: 0.1
+    - content: SedimentaryRock
+      bandSize: 0.1
+    - content: Clay
+      bandSize: 0.2
+    - content: Oxygen   
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 5
+    - content: CarbonDioxide
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 5
+    StoneMetal:
+    - content: Rust
+      bandSize: 0.05
+    - content: SandStone
+      bandSize: 0.2
+    - content: Granite
+      bandSize: 0.2
+    - content: Carbon
+      bandSize: 0.2
+      overrides:
+        massMultiplier: 0.5
+    - content: CarbonDioxide
+      bandSize: 0.2
+      overrides:
+        massMultiplier: 7
+    - content: IronOre
+      bandSize: 0.4
+    Forest:
+    - content: Dirt
+      bandSize: 0.1
+    - content: SandStone
+      bandSize: 0.1
+    - content: Algae
+      bandSize: 0.1
+    - content: Fertilizer
+      bandSize: 0.1
+    - content: OxyRock
+      bandSize: 0.1
+    - content: Clay
+      bandSize: 0.1
+    - content: SedimentaryRock
+      bandSize: 0.1
+    - content: Oxygen   
+      bandSize: 0.1
+    ForestWet:
+    - content: Algae
+      bandSize: 0.1
+    - content: SedimentaryRock
+      bandSize: 0.1
+    - content: Sand
+      bandSize: 0.1
+    - content: Dirt
+      bandSize: 0.2
+    - content: Fertilizer
+      bandSize: 0.1
+    - content: Rust
+      bandSize: 0.1
+    - content: Water   
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 0.5
+    - content: Oxygen
+      bandSize: 0.1
+    ForestWater:
+    - content: Algae
+      bandSize: 0.1
+    - content: Dirt
+      bandSize: 0.1
+    - content: Fertilizer
+      bandSize: 0.1
+    - content: Rust
+      bandSize: 0.1
+    - content: SedimentaryRock
+      bandSize: 0.2
+    - content: Water
+      bandSize: 0.5
+      overrides:
+        massMultiplier: 0.9
+    ForestHard:
+    - content: SedimentaryRock
+      bandSize: 0.1
+    - content: Granite
+      bandSize: 0.1
+    - content: Phosphorite
+      bandSize: 0.1
+    - content: OxyRock
+      bandSize: 0.1
+    - content: Rust
+      bandSize: 0.1
+    - content: IronOre
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 0.5
+    - content: Vacuum
+      bandSize: 0.2
+    ForestGas:
+    - content: Oxygen
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 8
+    - content: Dirt
+      bandSize: 0.1
+    - content: Rust
+      bandSize: 0.1
+    - content: OxyRock
+      bandSize: 0.2
+    - content: Algae
+      bandSize: 0.2
+    - content: ContaminatedOxygen
+      bandSize: 0.3
+      overrides:
+        massMultiplier: 10
+    LakeFresh:
+    - content: Water
+      bandSize: 1
+      overrides:
+        massMultiplier: 0.95
+    LakeDry:
+    - content: SedimentaryRock
+      bandSize: 0.2
+    - content: Granite
+      bandSize: 0.2
+    - content: Carbon
+      bandSize: 0.2
+    - content: Algae
+      bandSize: 0.2
+    - content: CarbonDioxide
+      bandSize: 0.2
+      overrides:
+        massMultiplier: 7
+    LakeMetal:
+    - content: Granite
+      bandSize: 0.05
+    - content: Carbon
+      bandSize: 0.05
+    - content: Rust
+      bandSize: 0.2
+    - content: IronOre
+      bandSize: 0.2
+    - content: CarbonDioxide
+      bandSize: 0.5
+    OceanSalty:
+    - content: SaltWater
+      bandSize: 1
+      overrides:
+        massMultiplier: 0.95
+    OceanBrine:
+    - content: Brine
+      bandSize: 1
+      overrides:
+        massMultiplier: 0.95
+    OceanDry:
+    - content: Granite
+      bandSize: 0.2
+    - content: IgneousRock
+      bandSize: 0.2
+    - content: Sand
+      bandSize: 0.1
+    - content: Salt
+      bandSize: 0.1
+    - content: Vacuum
+      bandSize: 0.2
+    OceanMetal:
+    - content: Granite
+      bandSize: 0.2
+    - content: Cobaltite
+      bandSize: 0.2
+    - content: Wolframite
+      bandSize: 0.2
+    - content: Salt
+      bandSize: 0.1
+    - content: BleachStone
+      bandSize: 0.1
+    - content: CarbonDioxide
+      bandSize: 0.5
+    DesertSand:
+    - content: Sand
+      bandSize: 0.3
+    - content: SandStone
+      bandSize: 0.1
+    - content: Cobaltite
+      bandSize: 0.1
+    - content: IronOre
+      bandSize: 0.1
+    DesertSoft:
+    - content: Sand
+      bandSize: 0.3
+    - content: CrushedRock
+      bandSize: 0.1
+    - content: Lime
+      bandSize: 0.1
+    - content: ToxicSand
+      bandSize: 0.1
+    - content: SedimentaryRock
+      bandSize: 0.2
+    DesertHard:
+    - content: Sand
+      bandSize: 0.3
+    - content: Granite
+      bandSize: 0.2
+    - content: Fossil
+      bandSize: 0.2 
+    - content: IronOre
+      bandSize: 0.2
+    - content: Cobaltite
+      bandSize: 0.2
+    - content: Lead
+      bandSize: 0.05
+    DesertAcient:
+    - content: Sand
+      bandSize: 0.2
+    - content: Carbon
+      bandSize: 0.1
+    - content: Fossil
+      bandSize: 0.2
+    - content: Lime
+      bandSize: 0.2
+    - content: Bitumen
+      bandSize: 0.2
+    DesertMetalAcient:
+    - content: Sand
+      bandSize: 0.2
+    - content: FoolsGold
+      bandSize: 0.2
+    - content: Rust
+      bandSize: 0.2
+    - content: Carbon
+      bandSize: 0.1
+    - content: Diamond
+      bandSize: 0.2
+    Frozen:
+    - content: Oxygen
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 2
+    - content: Ice
+      bandSize: 0.2
+    - content: Snow
+      bandSize: 0.2
+    - content: Granite
+      bandSize: 0.2
+    - content: Wolframite
+      bandSize: 0.1
+    - content: CarbonDioxide
+      bandSize: 0.5
+    FrozenSoft:
+    - content: Granite
+      bandSize: 0.1
+    - content: CarbonDioxide
+      bandSize: 0.1
+      overrides:
+        massMultiplier: 2
+    - content: Cobaltite
+      bandSize: 0.1
+    - content: CrushedIce
+      bandSize: 0.1
+    - content: Ice
+      bandSize: 0.2
+    - content: Snow
+      bandSize: 0.4
+    - content: Oxygen
+      bandSize: 1
+      overrides:
+        massMultiplier: 2
+    FrozenHard:
+    - content: Wolframite
+      bandSize: 0.2
+    - content: Cobaltite
+      bandSize: 0.1
+    - content: Ice
+      bandSize: 0.2
+    - content: CrushedIce
+      bandSize: 0.2
+    - content: Granite
+      bandSize: 0.3
+    - content: CarbonDioxide
+      bandSize: 0.4
+      overrides:
+        massMultiplier: 2
+    FrozenAcient:
+    - content: Ice
+      bandSize: 0.2
+    - content: BrineIce
+      bandSize: 0.1
+    - content: Granite
+      bandSize: 0.1
+    - content: Cobaltite
+      bandSize: 0.2
+    - content: Wolframite
+      bandSize: 0.2
+    - content: Diamond
+      bandSize: 0.1
+    FrozenGasAcient:
+    - content: Ice
+      bandSize: 0.3
+    - content: SolidCarbonDioxide
+      bandSize: 0.2
+    - content: OxyRock
+      bandSize: 0.2
+    - content: SolidCrudeOil
+      bandSize: 0.2
+    - content: SolidChlorine
+      bandSize: 0.2
+    FrozenDirty:
+    - content: Snow
+      bandSize: 0.1
+    - content: DirtyIce
+      bandSize: 0.3
+    - content: CrushedIce
+      bandSize: 0.2
+    - content: BrineIce
+      bandSize: 0.2
+    - content: LiquidCarbonDioxide
+      bandSize: 0.1
+    - content: ToxicSand
+      bandSize: 0.1
+    - content: Salt
+      bandSize: 0.1
+    Magma:
+    - content: Magma
+      bandSize: 0.4
+    - content: Obsidian
+      bandSize: 0.3
+    - content: Magma
+      bandSize: 0.4
+      overrides:
+        massMultiplier: 0.5
+    - content: Granite
+      bandSize: 0.4
+    Hell:
+    - content: Ice
+      bandSize: 0.3
+    - content: SolidCarbonDioxide
+      bandSize: 0.2
+    - content: OxyRock
+      bandSize: 0.2
+    - content: BleachStone
+      bandSize: 0.2
+    - content: Ice
+      bandSize: 0.3

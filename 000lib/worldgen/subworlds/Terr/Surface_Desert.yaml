@@ -1,0 +1,35 @@
+biomeNoise: noise/Sandstone
+temperatureRange: HumanWarm
+minChildCount: 3
+tags:
+  - IgnoreCaveOverride
+density:
+  min: 5
+  max: 10
+avoidRadius: 10.0
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_RockySoft
+borderSizeOverride:
+ min: 0.5
+ max: 1.5
+
+biomes:
+  - name: biomes/Terr/DesertSand
+    weight: 2
+    tags:
+      - Terr_HatchBuried_0
+      - Terr_JumpingJoya_1
+      - Terr_JumpingJoyaSeed_0
+      - Terr_Hexalent_0
+      - Terr_HexalentBuried_1
+  - name: biomes/Terr/DesertSoft
+    weight: 1
+    tags:
+      - Terr_PrickleGrass_1
+      - Terr_PrickleGrassSeed_1
+      - Terr_MuckrootBuried_1
+      - Terr_Hexalent_0
+      - Terr_HexalentBuried_1
+zoneType: Rust

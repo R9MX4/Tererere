@@ -1,0 +1,51 @@
+tags:
+  - AllowExceedNodeBorders
+shape: ShortWide
+borders:
+  - 1
+  - 1
+  - 1
+blobSize:
+  min: 4.5
+  max: 5.5
+ 
+forceBiome: biomes/Terr/OceanMetal
+biomeTags:
+  - Terr_HatchStoneBuried_0
+  - Terr_HatchMetalBuried_0
+  - Terr_Crab_0
+  - Terr_BuddyBudSeed_1
+  
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Cobaltite
+        weight: 0.5
+      - element: Wolframite
+        weight: 0.4
+      - element: Fossil
+        weight: 0.1
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Fossil
+        weight: 0.8    
+      - element: Granite
+        weight: 0.2
+  RoomBorderChoices1:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Granite
+        weight: 0.7
+      - element: IgneousRock
+        weight: 0.2
+      - element: CarbonDioxide
+        weight: 0.1
+  RoomBorderChoices1:
+    selectionMethod: WeightedResample
+    choices:
+      - element: IgneousRock
+        weight: 0.5
+      - element: CarbonDioxide
+        weight: 0.5

@@ -1,0 +1,28 @@
+biomeNoise: noise/subworldOcean
+temperatureRange: Mild
+minChildCount: 4
+
+density:
+  min: 10
+  max: 15
+avoidRadius: 20.0
+minChildCount: 4
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_SeaHard
+borderSizeOverride:
+ min: 1
+ max: 2
+biomes:
+  - name: biomes/Terr/OceanBrine
+    weight: 2
+    tags:
+      - Terr_Crab_1
+      - Terr_WaterWeed_1
+      - Terr_WaterWeedSeed_1
+features:
+  - type: features/Terr/OceanLake
+  - type: features/Terr/OceanCave
+tags:
+  - IgnoreCaveOverride
+  - River
+zoneType: Ocean

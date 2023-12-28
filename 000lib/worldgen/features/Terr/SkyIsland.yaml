@@ -1,0 +1,57 @@
+tags:
+  - AllowExceedNodeBorders
+shape: ShortWide
+borders:
+  - 1
+  - 1
+  - 1
+blobSize:
+  min: 3.2
+  max: 4.2
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Niobium
+        weight: 0.2
+      - element: Gold
+        weight: 0.2
+      - element: Diamond
+        weight: 0.2
+      - element: Tungsten
+        weight: 0.2
+      - element: RefinedCarbon
+        weight: 0.2      
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: IronOre
+        weight: 0.2
+      - element: Electrum
+        weight: 0.2
+      - element: Cobaltite
+        weight: 0.2
+      - element: Wolframite
+        weight: 0.2
+      - element: Cuprite
+        weight: 0.2
+  RoomBorderChoices1:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Obsidian
+        weight: 0.3
+      - element: CrushedRock
+        weight: 0.3
+      - element: Regolith
+        weight: 0.3
+  RoomBorderChoices2:
+    selectionMethod: WeightedResample
+    choices:
+      - element: MaficRock
+        weight: 0.2
+      - element: SandStone
+        weight: 0.2
+      - element: Obsidian
+        weight: 0.2
+      - element: Oxygen
+        weight: 0.4

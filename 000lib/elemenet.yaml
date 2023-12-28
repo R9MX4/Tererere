@@ -1,0 +1,298 @@
+elements:
+  - elementId: CrushedRock
+    maxMass: 1000
+
+  - elementId: Sand
+    maxMass: 1200
+    reflect: 1.05
+    
+  - elementId: ToxicMud
+    maxMass: 1200
+
+  - elementId: Mud
+    maxMass: 1200
+
+  - elementId: Katairite
+    hardness: 200
+    
+  - elementId: TempConductorSolid
+    thermalConductivity: 120
+    resist: 6.976
+    
+  - elementId: SuperInsulator
+    highTemp: 2895.15
+    highTempTransitionOreID: Sulfur
+
+  - elementId: Diamond
+    thermalConductivity: 100
+
+  - elementId: Steel
+    highTemp: 1820.15
+    highTempTransitionTarget: MoltenIron
+    highTempTransitionOreID: RefinedCarbon
+    highTempTransitionOreMassConversion: 0.3
+    thermalConductivity: 38.81
+    resist: 6.726
+    
+  - elementId: Iron
+    thermalConductivity: 48.99
+    resist: 6.034
+    
+  - elementId: IronOre
+    thermalConductivity: 4.899
+    resist: 7.603
+    
+  - elementId: FoolsGold
+    thermalConductivity: 4.899
+    highTemp: 1450.15
+    resist: 6.502
+    
+  - elementId: Gold
+    thermalConductivity: 80.43
+    overheat: 75
+    resist: 2.440
+    
+  - elementId: GoldAmalgam
+    thermalConductivity: 8.043
+    highTempTransitionOreID: SolidMercury
+    highTempTransitionOreMassConversion: 0.4
+    resist: 4.418
+    
+  - elementId: SolidMercury
+    resist: 9.99
+    
+  - elementId: Electrum
+    decor: 0.2
+    overheat: 25
+    thermalConductivity: 8.043
+    resist: 4.015
+    
+  - elementId: Copper
+    thermalConductivity: 86.98
+    decor: 0.3
+    resist: 1.678
+    
+  - elementId: Cuprite
+    thermalConductivity: 8.698
+    resist: 3.356
+    
+  - elementId: Cobalt
+    thermalConductivity: 45.5
+    resist: 5.154
+    
+  - elementId: Cobaltite
+    thermalConductivity: 4.55
+    resist: 6.698
+    
+  - elementId: Fullerene
+    thermalConductivity: 0.4
+
+  - elementId: Aluminum
+    thermalConductivity: 73
+    resist: 2.655
+    
+  - elementId: AluminumOre
+    highTemp: 933.45
+    thermalConductivity: 7.3
+    resist: 4.609
+    
+  - elementId: Tungsten
+    thermalConductivity: 65.74
+    resist: 4.733
+    
+  - elementId: Wolframite
+    resist: 6.328
+    
+  - elementId: Niobium
+    thermalConductivity: 40.14
+    resist: 6.564
+    
+  - elementId: Lead
+    thermalConductivity: 32.4
+    resist: 7.764
+    hardness: 150
+    
+  - elementId: BrineIce
+    reflect: 0.7
+    
+  - elementId: CrushedIce
+    reflect: 0.7
+    
+  - elementId: DirtyIce
+    reflect: 0.9
+    
+  - elementId: Ice
+    reflect: 0.6
+    
+  - elementId: Snow
+    reflect: 0.6
+    
+  - elementId: Bitumen
+    reflect: 1.5
+    
+  - elementId: OxyRock
+    tagsAdd:
+    - EmitsLight
+    
+  - elementId: Phosphorus
+    tagsAdd:
+    - EmitsLight
+    
+  - elementId: Regolith
+    tagsAdd:
+    - EmitsLight
+    
+  - elementId: CrudeOil
+    highTempTransitionOreID: RefinedCarbon
+    highTempTransitionOreMassConversion: 0.05
+
+  - elementId: Petroleum
+    highTempTransitionOreID: RefinedCarbon
+    highTempTransitionOreMassConversion: 0.05
+
+  - elementId: LiquidHydrogen
+    maxMass: 71
+
+  - elementId: LiquidHelium
+    maxMass: 125
+
+  - elementId: LiquidPropane
+    maxMass: 493
+
+  - elementId: MoltenSyngas
+    maxMass: 580
+
+  - elementId: Naphtha
+    maxMass: 650
+
+  - elementId: LiquidMethane
+    maxMass: 717
+
+  - elementId: Ethanol
+    maxMass: 789
+    
+  - elementId: Water
+    reflect: 0.9
+    
+  - elementId: DirtyWater
+    maxMass: 1030
+    highTemp: 353.15
+    highTempTransitionOreID: ToxicSand
+    highTempTransitionOreMassConversion: 0.05
+
+  - elementId: SaltWater
+    maxMass: 1043
+    reflect: 0.9
+    
+  - elementId: LiquidCarbonDioxide
+    maxMass: 1101
+
+  - elementId: LiquidOxygen
+    maxMass: 1141
+
+  - elementId: Brine
+    maxMass: 1287
+    reflect: 0.9
+    
+  - elementId: MoltenGlass
+    maxMass: 1400
+
+  - elementId: MoltenSucrose
+    maxMass: 1520
+
+  - elementId: MoltenSalt
+    maxMass: 1550
+
+  - elementId: Chlorine
+    maxMass: 1563
+
+  - elementId: MoltenCarbon
+    maxMass: 1600
+
+  - elementId: LiquidPhosphorus
+    maxMass: 1740
+
+  - elementId: LiquidSulfur
+    highTemp: 717.75
+    maxMass: 1819
+
+  - elementId: Magma
+    maxMass: 2300
+    
+  - elementId: MoltenAluminum
+    maxMass: 2375
+    lowTempTransitionOreID: AluminumOre
+    lowTempTransitionOreMassConversion: 0.33
+
+  - elementId: MoltenIron
+    maxMass: 6980
+    lowTempTransitionOreID: IronOre
+    lowTempTransitionOreMassConversion: 0.33
+
+  - elementId: MoltenNiobium
+    maxMass: 7600
+
+  - elementId: MoltenCopper
+    maxMass: 7992
+    lowTempTransitionOreID: Cuprite
+    lowTempTransitionOreMassConversion: 0.33
+
+  - elementId: MoltenCobalt
+    maxMass: 8860
+    lowTempTransitionOreID: Cobaltite
+    lowTempTransitionOreMassConversion: 0.33
+
+  - elementId: MoltenLead
+    maxMass: 10660
+
+  - elementId: Mercury
+    maxMass: 13690
+
+  - elementId: MoltenUranium
+    maxMass: 17300
+
+  - elementId: MoltenGold
+    maxMass: 17310
+    lowTempTransitionOreID: Electrum
+    lowTempTransitionOreMassConversion: 0.33
+
+  - elementId: MoltenTungsten
+    maxMass: 17600
+    lowTempTransitionOreID: Wolframite
+    lowTempTransitionOreMassConversion: 0.33
+
+  - elementId: Hydrogen
+    molarMass: 2.01588
+    lightAbsorptionFactor: 0.05
+
+  - elementId: Steam
+    molarMass: 18.0153
+
+  - elementId: SourGas
+    molarMass: 21.331
+    lowTempTransitionOreMassConversion: 0.1
+
+  - elementId: CarbonGas
+    molarMass: 26.346
+
+  - elementId: Oxygen
+    molarMass: 31.9988
+    lightAbsorptionFactor: 0.015
+
+  - elementId: ContaminatedOxygen
+    molarMass: 33.4
+
+  - elementId: SaltGas
+    molarMass: 58.44
+
+  - elementId: ChlorineGas
+    molarMass: 70.905
+
+  - elementId: RockGas
+    molarMass: 116
+
+  - elementId: PhosphorusGas
+    molarMass: 123.895
+
+  - elementId: SulfurGas
+    molarMass: 256.52

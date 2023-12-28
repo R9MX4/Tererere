@@ -1,0 +1,227 @@
+name: S_Text.TERR_LAND.NAME
+description: S_Text.TERR_LAND.DESCRIPTION 
+disableWorldTraits: true
+
+worldTraitScale: 0.33 # Adjust with worldSize. Traits are tuned to base game world sizes.
+worldsize:
+  X: 224
+  Y: 192
+layoutMethod: PowerTree
+
+defaultsOverrides:
+  data:
+    DrawWorldBorder: true
+    DrawWorldBorderForce: false
+    WorldBorderThickness: 1
+    WorldBorderRange: 0
+    OverworldDensityMin: 18
+    OverworldDensityMax: 20
+    OverworldAvoidRadius: 10
+    OverworldSampleBehaviour: PoissonDisk
+  startingWorldElements: [] # remove the algae check
+
+startSubworldName: subworlds/Terr/Start_Default
+startingBaseTemplate: Terr/StartingBase
+startingBasePositionHorizontal:
+  min: 0.45
+  max: 0.55
+startingBasePositionVertical:
+  min: 0.68
+  max: 0.72
+  
+fixedTraits:
+  - sunlightMedLow
+  - cosmicRadiationLow
+  
+seasons:
+  - SpacedOutStyleRocketMeteorShowers
+  - MiniForestFrozenMeteorShowers
+  - MiniBadlandsMeteorShowers
+  
+# List all the subworld files to load
+subworldFiles:
+  - name: subworlds/Terr/Start_Default
+  - name: subworlds/Terr/Sky_Default
+  - name: subworlds/Terr/Sky_Laputa
+    minCount: 1
+    maxCount: 1
+  - name: subworlds/Terr/Start_Stone
+    minCount: 1
+  - name: subworlds/Terr/Start_Forest
+    weight: 5
+    minCount: 1
+    maxCount: 1
+  - name: subworlds/Terr/Surface_Forest
+    minCount: 1
+  - name: subworlds/Terr/Surface_Stone
+    minCount: 1
+  - name: subworlds/Terr/Surface_Ocean
+    weight: 5
+    minCount: 1
+    maxCount: 1
+  - name: subworlds/Terr/Surface_Desert
+    weight: 5
+    minCount: 1
+    maxCount: 1
+  - name: subworlds/Terr/Shallow_Forest
+    minCount: 1
+  - name: subworlds/Terr/Shallow_Stone
+    minCount: 1
+  - name: subworlds/Terr/Shallow_Ocean
+    weight: 5
+    minCount: 1
+    maxCount: 1
+  - name: subworlds/Terr/Shallow_Desert
+    maxCount: 1
+  - name: subworlds/Terr/Shallow_Frozen
+    weight: 2
+    minCount: 1
+    maxCount: 2
+      
+unknownCellsAllowedSubworlds: 
+  - tagcommand: Default
+    command: Replace
+    subworldNames:
+      - subworlds/Terr/Shallow_Stone
+#Sky0
+  - tagcommand: DistanceFromTag
+    tag: AtSurface
+    minDistance: 0
+    maxDistance: 0
+    command: Replace
+    subworldNames:
+      - subworlds/Terr/Sky_Default
+      - subworlds/Terr/Sky_Laputa
+  - tagcommand: DistanceFromTag
+    tag: AtEdge
+    minDistance: 0
+    maxDistance: 0
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Sky_Laputa
+  - tagcommand: DistanceFromTag
+    tag: AtEdge
+    minDistance: 2
+    maxDistance: 99
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Sky_Laputa
+#Sky1
+  - tagcommand: DistanceFromTag
+    tag: AtSurface
+    minDistance: 1
+    maxDistance: 1
+    command: Replace
+    subworldNames:
+      - subworlds/Terr/Sky_Default
+#surface
+  - tagcommand: DistanceFromTag
+    tag: AtSurface
+    minDistance: 2
+    maxDistance: 2
+    command: Replace
+    subworldNames:
+      - subworlds/Terr/Start_Stone
+      - subworlds/Terr/Start_Forest
+      - subworlds/Terr/Surface_Stone
+      - subworlds/Terr/Surface_Forest
+      - subworlds/Terr/Surface_Ocean
+      - subworlds/Terr/Surface_Desert
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 2
+    maxDistance: 99
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Start_Stone
+      - subworlds/Terr/Start_Forest
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 0
+    maxDistance: 1
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Surface_Stone
+      - subworlds/Terr/Surface_Forest
+      - subworlds/Terr/Surface_Ocean
+      - subworlds/Terr/Surface_Desert
+#shallow
+  - tagcommand: DistanceFromTag
+    tag: AtSurface
+    minDistance: 3
+    maxDistance: 3
+    command: Replace
+    subworldNames:
+      - subworlds/Terr/Shallow_Stone
+      - subworlds/Terr/Shallow_Forest
+      - subworlds/Terr/Shallow_Desert
+      - subworlds/Terr/Shallow_Ocean
+      - subworlds/Terr/Shallow_Frozen
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 0
+    maxDistance: 2
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Shallow_Desert
+      - subworlds/Terr/Shallow_Frozen
+  - tagcommand: DistanceFromTag
+    tag: AtEdge
+    minDistance: 1
+    maxDistance: 99
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Surface_Ocean
+      - subworlds/Terr/Shallow_Ocean
+  - tagcommand: DistanceFromTag
+    tag: AtStart
+    minDistance: 4
+    maxDistance: 99
+    command: ExceptWith
+    subworldNames:
+      - subworlds/Terr/Shallow_Stone
+      
+worldTemplateRules:
+#Don't change warp template description!!!
+  - names:
+    - expansion1::poi/warp/sender_mini
+    - expansion1::poi/warp/receiver_mini
+    - expansion1::poi/warp/teleporter_mini
+    listRule: GuaranteeAll
+    useRelaxedFiltering: true
+    priority: 90
+    allowedCellsFilter:
+      - command: Replace
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 3
+        maxDistance: 99
+      - command: ExceptWith
+        zoneTypes: [ MagmaCore ]
+  - names:
+      - Terr/GeyserSalt
+    listRule: GuaranteeOne
+    useRelaxedFiltering: true
+    priority: 100
+    allowedCellsFilter:
+      - command: Replace
+        zoneTypes: [Ocean]
+      - command: IntersectWith
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 3
+        maxDistance: 3
+  - names:
+      - poi/jungle/geyser_methane
+      - poi/hotmarsh/geyser_methane
+    listRule: GuaranteeOne
+    useRelaxedFiltering: true
+    priority: 100
+    allowedCellsFilter:
+      - command: Replace
+        zoneTypes: [ Forest, Rust ]
+      - command: IntersectWith
+        tagcommand: DistanceFromTag
+        tag: AtSurface
+        minDistance: 3
+        maxDistance: 3

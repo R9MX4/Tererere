@@ -1,0 +1,46 @@
+shape: TallThin
+borders:
+  - 2
+  - 1
+blobSize:
+  min: 3.5
+  max: 5.5
+  
+forceBiome: biomes/Terr/StoneGas
+biomeTags:
+  - Terr_Oxyfern_2
+  - Terr_OxyfernSeed_2
+  - Terr_MealWood_2
+  - Terr_MirthLeaf_1
+  - Terr_MuckrootBuried_2
+  
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Oxygen
+        weight: 1
+        overrides:
+          massOverride: 1.5
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Oxygen
+        weight: 1
+      - element: CarbonDioxide
+        weight: 0.2
+      - element: Dirt
+        weight: 1
+      - element: Carbon
+        weight: 1
+        overrides:
+          massOverride: 500
+      - element: SandStone
+        weight: 1
+  RoomBorderChoices1:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Dirt
+        weight: 0.2
+      - element: SandStone
+        weight: 1

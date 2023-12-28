@@ -1,0 +1,19 @@
+biomeNoise: noise/Generic
+temperatureRange: ExtremelyHot
+minChildCount: 4
+density:
+  min: 35
+  max: 45
+avoidRadius: 50.0
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_Abyss
+borderOverridePriority: 100
+borderSizeOverride:
+ min: 1
+ max: 1
+biomes:
+  - name: biomes/Terr/Magma
+    weight: 1
+tags:
+  - IgnoreCaveOverride
+zoneType: MagmaCore

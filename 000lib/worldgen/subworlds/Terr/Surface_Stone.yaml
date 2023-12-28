@@ -1,0 +1,50 @@
+biomeNoise: noise/Sandstone
+temperatureRange: Room
+
+density:
+  min: 5
+  max: 10
+avoidRadius: 10.0
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_RockySoft
+borderSizeOverride:
+ min: 0.5
+ max: 1.2
+ 
+biomes:
+  - name: biomes/Terr/Stone
+    weight: 1
+    tags:
+      - Terr_HatchBuried_0
+      - Terr_Oxyfern_1
+      - Terr_OxyfernSeed_1
+      - Terr_ForestTree_2
+      - Terr_ArborAcorn_1
+      - Terr_MealWood_3
+      - Terr_MealWoodSeed_1
+      - Terr_PrickleGrass_1
+      - Terr_PrickleGrassSeed_1
+      - Terr_Muckroot_1
+      - Terr_MuckrootBuried_2
+  - name: biomes/Terr/StoneMetal
+    weight: 1
+    tags:
+      - Terr_HatchBuried_1
+      - Terr_Muckroot_1
+      - Terr_MuckrootBuried_1
+  - name: biomes/Terr/StoneHole
+    weight: 1
+    tags:
+      - Terr_HatchBuried_0
+      - Terr_Muckroot_3
+      - Terr_MuckrootBuried_2
+features:
+  - type: features/Terr/StoneLake
+  - type: features/Terr/StoneChamber
+  - type: features/sedimentary/SmallLake
+tags:
+  - IgnoreCaveOverride
+  - SwapLakesToBelow
+zoneType: Sandstone

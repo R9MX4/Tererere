@@ -1,0 +1,46 @@
+tags:
+  - AllowExceedNodeBorders
+  - Wet
+shape: ShortWide
+borders:
+  - 1
+  - 1
+blobSize:
+  min: 5.5
+  max: 7.5
+internalMobs:
+  - type: LightBug
+    count:
+      min: 1
+      max: 1
+
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Oxygen
+        weight: 0.8
+      - element: Sand
+        weight: 0.2
+      - element: Water
+        weight: 1
+        overrides:
+          massOverride: 1200
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Fertilizer
+        weight: 0.5
+        overrides:
+          massOverride: 500
+      - element: Rust
+        weight: 0.5
+        overrides:
+          massOverride: 500
+      - element: SandStone
+        weight: 1
+  RoomBorderChoices1:
+    selectionMethod: WeightedResample
+    choices:
+      - element: SandStone
+        weight: 1

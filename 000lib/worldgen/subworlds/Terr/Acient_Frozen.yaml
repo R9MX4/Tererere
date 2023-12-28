@@ -1,0 +1,30 @@
+biomeNoise: noise/subworldFrozen
+temperatureRange: ExtremelyCold
+minChildCount: 4
+tags:
+  - IgnoreCaveOverride
+density:
+  min: 10
+  max: 15
+avoidRadius: 10.0
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_Abyss
+borderOverridePriority: 10
+borderSizeOverride:
+ min: 1
+ max: 1
+ 
+biomes:
+  - name: biomes/Terr/FrozenAcient
+    weight: 2
+  - name: biomes/Terr/FrozenGasAcient
+    weight: 2
+    tags:
+      - Terr_ColdWheatrSeed_0
+      - Terr_ColdBreatherSeed_0
+  - name: biomes/Terr/FrozenHard
+    weight: 1
+    tags:
+      - Terr_ColdWheatrSeed_2
+      - Terr_ColdBreatherSeed_2
+zoneType: FrozenWastes

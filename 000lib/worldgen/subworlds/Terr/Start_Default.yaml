@@ -1,0 +1,35 @@
+biomeNoise: noise/SandstoneStart
+temperatureRange: Room
+pdWeight: 1
+density:
+  min: 2
+  max: 2
+avoidRadius: 5.0
+minChildCount: 6
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: NONE
+
+biomes:
+  - name: biomes/Terr/Stone
+    weight: 1
+    tags:
+      - Terr_LightBug_0
+      - Terr_HatchBuried_0
+      - Terr_MealWood_2
+      - Terr_MealWoodSeed_2
+      - Terr_PrickleFlower_1
+      - Terr_PrickleFlowerSeed_2
+      - Terr_PrickleGrass_1
+      - Terr_PrickleGrassSeed_1
+      - Terr_Muckroot_2
+      - Terr_MuckrootBuried_2
+centralFeature:
+  type: features/generic/StartLocation
+tags:
+  - IgnoreCaveOverride
+  - NoGlobalFeatureSpawning
+  - StartWorld
+  - SwapLakesToBelow
+zoneType: Sandstone

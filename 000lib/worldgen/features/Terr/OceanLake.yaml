@@ -1,0 +1,40 @@
+tags:
+  - AllowExceedNodeBorders
+  - Wet
+shape: Square
+borders:
+  - 2
+blobSize:
+  min: 3.5
+  max: 5.5
+  
+forceBiome: biomes/Terr/OceanDry
+biomeTags:
+  - Terr_Pacu_1
+  - Terr_WaterWeed_1
+  - Terr_Pepper_1
+  - Terr_PepperSeed_1
+
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Vacuum
+        weight: 1
+        overrides:
+          massOverride: 1
+      - element: Water
+        weight: 1
+        overrides:
+          massOverride: 1200
+      - element: Sand
+        weight: 0.1
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: IgneousRock
+        weight: 0.3
+      - element: Granite
+        weight: 0.3
+      - element: Salt
+        weight: 0.2

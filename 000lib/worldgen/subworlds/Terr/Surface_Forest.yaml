@@ -1,0 +1,58 @@
+biomeNoise: noise/Sandstone
+temperatureRange: Room
+
+density:
+  min: 5
+  max: 10
+avoidRadius: 10.0
+doAvoidPoints: false
+dontRelaxChildren: true
+sampleBehaviour: PoissonDisk
+borderOverride: Terr_OganicSoft
+borderSizeOverride:
+ min: 0.5
+ max: 1.5
+
+biomes:
+  - name: biomes/Terr/Forest
+    weight: 2
+    tags:    
+      - Terr_LightBug_0
+      - Terr_Oxyfern_2
+      - Terr_OxyfernSeed_1
+      - Terr_ForestTree_3
+      - Terr_ArborAcorn_1
+      - Terr_PrickleFlower_2
+      - Terr_PrickleFlowerSeed_1
+      - Terr_MirthLeaf_1
+      - Terr_MirthLeafSeed_2
+      - Terr_Muckroot_1
+      - Terr_MuckrootBuried_2
+  - name: biomes/Terr/ForestWet
+    weight: 1
+    tags:
+      - Terr_LightBug_1
+      - Terr_LightBugOrange_0
+      - Terr_Oxyfern_1
+      - Terr_OxyfernSeed_1
+      - Terr_PrickleFlower_2
+      - Terr_PrickleFlowerSeed_1
+      - Terr_MirthLeaf_0
+      - Terr_MirthLeafSeed_1
+  - name: biomes/Terr/ForestHard
+    weight: 1
+    tags:   
+      - Terr_HatchBuried_0
+      - Terr_ForestTree_2
+      - Terr_ArborAcorn_0
+      - Terr_MealWood_1
+      - Terr_PrickleGrass_1
+      - Terr_Muckroot_1
+      - Terr_MuckrootBuried_1
+features:
+  - type: features/Terr/ForestLake
+  - type: features/Terr/ForestChamber
+tags:
+  - IgnoreCaveOverride
+  - SwapLakesToBelow
+zoneType: Forest

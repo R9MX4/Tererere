@@ -1,0 +1,42 @@
+name: terr_heatsink
+info:
+  size:
+    X: 4
+    Y: 4
+  area: 12
+cells:
+- element: Oxygen
+  mass: 3
+  temperature: 200
+  location_y: 1
+- element: Snow
+  mass: 999
+  temperature: 200
+  location_y: 0
+buildings:
+- id: MassiveHeatSink
+  element: Iron
+  temperature: 200
+- id: InsulatedGasConduit
+  element: Obsidian
+  temperature: 200
+  connections: 8
+- id: TilePOI
+  location_x: -1
+  location_y: -1
+  element: Katairite
+  temperature: 200
+- id: TilePOI
+  location_y: -1
+  element: Katairite
+  temperature: 200
+- id: TilePOI
+  location_x: 1
+  location_y: -1
+  element: Katairite
+  temperature: 200
+- id: TilePOI
+  location_x: 2
+  location_y: -1
+  element: Katairite
+  temperature: 200

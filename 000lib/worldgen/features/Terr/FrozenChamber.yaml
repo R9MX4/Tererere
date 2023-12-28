@@ -1,0 +1,63 @@
+shape: ShortWide
+borders:
+  - 1
+  - 1
+  - 1
+blobSize:
+  min: 4.5
+  max: 6.5
+internalMobs:
+  - type: ColdWheat
+    count:
+      min: 1
+      max: 2
+  - type: ColdBreather
+    count:
+      min: 1
+      max: 1
+
+ElementChoiceGroups:
+  RoomCenterElements:
+    selectionMethod: WeightedResample
+    choices:
+      - element: CarbonDioxide
+        weight: 2
+        overrides:
+          massOverride: 1
+      - element: Oxygen
+        weight: 2
+        overrides:
+          massOverride: 1
+      - element: Granite
+        weight: 0.5
+      - element: Snow
+        weight: 0.1
+  RoomBorderChoices0:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Granite
+        weight: 2
+      - element: Ice
+        weight: 1
+      - element: Snow
+        weight: 0.1
+  RoomBorderChoices1:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Granite
+        weight: 1
+      - element: Ice
+        weight: 1
+      - element: Snow
+        weight: 0.5
+      - element: Oxygen
+        weight: 0.5
+  RoomBorderChoices2:
+    selectionMethod: WeightedResample
+    choices:
+      - element: Ice
+        weight: 2
+      - element: DirtyIce
+        weight: 0.5
+      - element: Granite
+        weight: 1

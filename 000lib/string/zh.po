@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not IncludedPOT Version: 2.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
+
+#. Horizon.S_Text.POWER_RESISTANCE.LOSS
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.LOSS"
+msgid "Trans Loss: {0}"
+msgstr "传输损耗：{0}"
+
+#. Horizon.S_Text.POWER_RESISTANCE.RESIST_NET
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.RESIST_NET"
+msgid "{0}Ω Net Resistance causes {1}% Trans Loss"
+msgstr "{0}Ω电网阻抗造成了{1}%传输损耗"
+
+#. Horizon.S_Text.POWER_RESISTANCE.WIRE_TOOLTIP
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.WIRE_TOOLTIP"
+msgid "The <style=\"KKeyword\">Trans Loss</style> is caused by wire resistance. "
+"Resistance depends on wire length, type and material.\n"
+"Currenmt Resistance is {1}Ω and causes {2}% <style=\"KKeyword\">Trans Loss</style>"
+msgstr "<style=\"KKeyword\">传输损耗</style>是由电网阻抗引起的。"
+"电网阻抗取决于电线长度、种类与材料。\n"
+"当前电网阻抗为{1}Ω，并造成了{2}%<style=\"KKeyword\">传输损耗</style>"
+
+#. Horizon.S_Text.POWER_RESISTANCE.DAILYREPORT
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.DAILYREPORT"
+msgid "Elect Trans"
+msgstr "电力传输"
+
+#. Horizon.S_Text.POWER_RESISTANCE.RESIST_DESC0
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.RESIST_DESC0"
+msgid "Insulation"
+msgstr "绝缘"
+
+#. Horizon.S_Text.POWER_RESISTANCE.RESIST_DESC1
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.RESIST_DESC1"
+msgid "Conductive"
+msgstr "导电"
+
+#. Horizon.S_Text.POWER_RESISTANCE.RESIST_DESC2
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.RESIST_DESC2"
+msgid "Good conductive"
+msgstr "极易导电"
+
+#. Horizon.S_Text.POWER_RESISTANCE.RESIST_TOOLTIP
+msgctxt "Horizon.S_Text.POWER_RESISTANCE.RESIST_TOOLTIP"
+msgid "The resist of {0} is {1}"
+msgstr "{0}的电阻率为{1}"
+
+#. Horizon.S_Text.REFLECT.REFLECT_DESC
+msgctxt "Horizon.S_Text.REFLECT.REFLECT_DESC"
+msgid "Reflect sunlight"
+msgstr "反射阳光"
+
+#. Horizon.S_Text.REFLECT.REFLECT_TOOLTIP
+msgctxt "Horizon.S_Text.REFLECT.REFLECT_TOOLTIP"
+msgid "{0} reflects {1}% sunlight"
+msgstr "{0}能反射{1}%的阳光"
+
+#. Horizon.S_Text.PRESSURE_DAMAGE.GAS_PRESSURE
+msgctxt "Horizon.S_Text.PRESSURE_DAMAGE.GAS_PRESSURE"
+msgid "Air Pressure Damage"
+msgstr "高压气体破坏"
+
+#. Horizon.S_Text.PRESSURE_DAMAGE.LIQUID_PRESSURE
+msgctxt "Horizon.S_Text.PRESSURE_DAMAGE.LIQUID_PRESSURE"
+msgid "Liquid Pressure Damage"
+msgstr "高压液体破坏"
+
+#. Horizon.S_Text.PRESSURE_DAMAGE.SOLID_PRESSURE
+msgctxt "Horizon.S_Text.PRESSURE_DAMAGE.SOLID_PRESSURE"
+msgid "Crushed"
+msgstr "固体重力破坏"
+
+#. Horizon.S_Text.PRESSURE_DAMAGE.SOLID_PRESSUREBURY
+msgctxt "Horizon.S_Text.PRESSURE_DAMAGE.SOLID_PRESSUREBURY"
+msgid "Buried"
+msgstr "碎片掩埋"
+
+#. Horizon.S_Text.VENT_ENVIRONMENT.WRONG_AMBIENCE
+msgctxt "Horizon.S_Text.VENT_ENVIRONMENT.WRONG_AMBIENCE"
+msgid "Forbidden Ambience: {0}"
+msgstr "环境错误: {0}"
+
+#. Horizon.S_Text.VENT_ENVIRONMENT.AMBIENCE
+msgctxt "Horizon.S_Text.VENT_ENVIRONMENT.AMBIENCE"
+msgid "{0} Ambience, Overpressure: {1}/{2}"
+msgstr "{0} 环境, 压力: {1}/{2}"
+
+#. Horizon.S_Text.HATER_TARGETTEMP.TARGETTEMPERATURE
+msgctxt "Horizon.S_Text.HATER_TARGETTEMP.TARGETTEMPERATURE"
+msgid "Target Temperaature"
+msgstr "目标温度"
+
+#. Horizon.S_Text.DARKNESS.LEVEL_NAME_0
+msgctxt "Horizon.S_Text.DARKNESS.LEVEL_NAME_0"
+msgid "Bright"
+msgstr "明亮"
+
+#. Horizon.S_Text.DARKNESS.LEVEL_TOOLTIP_0
+msgctxt "Horizon.S_Text.DARKNESS.LEVEL_TOOLTIP_0"
+msgid "The duplicant can see a bright future."
+msgstr "复制人眼前一片光明。"
+
+#. Horizon.S_Text.DARKNESS.LEVEL_NAME_1
+msgctxt "Horizon.S_Text.DARKNESS.LEVEL_NAME_1"
+msgid "Gloomy"
+msgstr "昏暗"
+
+#. Horizon.S_Text.DARKNESS.LEVEL_TOOLTIP_1
+msgctxt "Horizon.S_Text.DARKNESS.LEVEL_TOOLTIP_1"
+msgid "Poor lighting affects the quality of work."
+msgstr "糟糕的采光会影响工作效率。"
+
+#. Horizon.S_Text.DARKNESS.LEVEL_NAME_2
+msgctxt "Horizon.S_Text.DARKNESS.LEVEL_NAME_2"
+msgid "Blind"
+msgstr "目盲"
+
+#. Horizon.S_Text.DARKNESS.LEVEL_TOOLTIP_2
+msgctxt "Horizon.S_Text.DARKNESS.LEVEL_TOOLTIP_2"
+msgid "Duplicant feels to be blind and has trouble to most work."
+msgstr "复制人眼前一片漆黑，难以工作。"
+
+#. Horizon.S_Text.HOVER_BAR.COORD
+msgctxt "Horizon.S_Text.HOVER_BAR.COORD"
+msgid "Coordinate: No.{0},X={1},Y={2}"
+msgstr "坐标: No.{0}，X={1}，Y={2}"
+
+#. Horizon.S_Text.HOVER_BAR.PRESSURE
+msgctxt "Horizon.S_Text.HOVER_BAR.PRESSURE"
+msgid "Pressure={0}"
+msgstr "压力={0}"
+
+#. Horizon.S_Text.HOVER_BAR.ELEMENT
+msgctxt "Horizon.S_Text.HOVER_BAR.ELEMENT"
+msgid "Reflect={0}, Resist={1}"
+msgstr "反射率={0}, 电阻率={1}"
+
+#. Horizon.S_Text.HOVER_BAR.VISUAL
+msgctxt "Horizon.S_Text.HOVER_BAR.VISUAL"
+msgid "Visual={0}"
+msgstr "可视度={0}"
+
+#. Horizon.S_Text.HOVER_BAR.SURFACE
+msgctxt "Horizon.S_Text.HOVER_BAR.SURFACE"
+msgid "Surface"
+msgstr "地表"
+
+#. Horizon.S_Text.HOVER_BAR.CRASH
+msgctxt "Horizon.S_Text.HOVER_BAR.CRASH"
+msgid "Crash"
+msgstr "压碎"
+
+#. Horizon.S_Text.HOVER_BAR.CHAOS
+msgctxt "Horizon.S_Text.HOVER_BAR.CHAOS"
+msgid "Chaos"
+msgstr "混沌"
+
+#. Horizon.S_Text.SYNTHESIS.NAME
+msgctxt "Horizon.S_Text.SYNTHESIS.NAME"
+msgid "Synthesis {ElementTypes}: {FlowRate}"
+msgstr "合成{ElementTypes}: {FlowRate}"
+
+#. Horizon.S_Text.SYNTHESIS.TOOLTIP
+msgctxt "Horizon.S_Text.SYNTHESIS.TOOLTIP"
+msgid "This object synthesis {ElementTypes} a rate of <style=\"produced\">{FlowRate}</style>“
+msgstr "这个物体正在以<style=\"produced\">{FlowRate}</style>的速率合成{ElementTypes}"
+
+#. Horizon.S_Text.OXYFERN.DESC
+msgctxt "Horizon.S_Text.OXYFERN.DESC"
+msgid ""
+"Oxyferns exudes breathable <link=\"OXYGEN\">Oxygen</link> from <link=\"CARBONDIOXIDE\">"
+"Carbon Dioxide</link>.\n"
+"It synthesis Carbon Dioxide Gas in the light and absorb Carbon Dioxide Gas in the dark."
+msgstr ""
+"氧齿蕨能将<link=\"CARBONDIOXIDE\">二氧化碳</link>转换为可呼吸的<link=\"OXYGEN\">氧气</link>。\n"
+"氧齿蕨在暴露于光照时合成氧气，或在黑暗中吸收氧气。"
+
+#. Horizon.S_Text.OXYFERN.DOMESTICATEDDESC
+msgctxt "Horizon.S_Text.OXYFERN.DOMESTICATEDDESC"
+msgid ""
+"This plant photosynthesizes or absorbs <link=\"CARBONDIOXIDE\">Carbon Dioxide"
+"</link> from atmosphere and convert it to <link=\"OXYGEN\">Oxygen</link>."
+msgstr ""
+"这种植物通过光合作用或从大气中吸收<link=\"CARBONDIOXIDE\">二氧化碳</link>，并转换为"
+"<link=\"OXYGEN\">氧气</link>。"
+
+#. Horizon.S_Text.TORCH.BURNOUT_DESC
+msgctxt "Horizon.S_Text.TORCH.BURNOUT_DESC"
+msgid "This torch is burned out."
+msgstr "这个火炬燃尽了。"
+
+#. Horizon.S_Text.TORCH.BURNOUT_TOOLTIP
+msgctxt "Horizon.S_Text.TORCH.BURNOUT_TOOLTIP"
+msgid "It's time to deconstruct it..."
+msgstr "是拆它的时候了……"
+
+#. Horizon.S_Text.TORCH.LIGHT_DESC
+msgctxt "Horizon.S_Text.TORCH.LIGHT_DESC"
+msgid "Light"
+msgstr "点燃"
+
+#. Horizon.S_Text.TORCH.LIGHT_TOOLTIP
+msgctxt "Horizon.S_Text.TORCH.LIGHT_TOOLTIP"
+msgid "Light the torch"
+msgstr "点燃火炬"
+
+#. Horizon.S_Text.TORCH.EXTIN_DESC
+msgctxt "Horizon.S_Text.TORCH.EXTIN_DESC"
+msgid "Extinguish"
+msgstr "熄灭"
+
+#. Horizon.S_Text.TORCH.EXTIN_TOOLTIP
+msgctxt "Horizon.S_Text.TORCH.EXTIN_TOOLTIP"
+msgid "Extinguish the torch"
+msgstr "熄灭火炬"
+
+#. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.DARK
+msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.DARK"
+msgid ""
+"<b>Unlit Area</b>\n"
+"Working in the dark has no effect on Duplicants"
+msgstr ""
+"<b>无光照区域</b>\n"
+"黑暗对复制人工作<b>没什么好影响</b>"
+
+#. STRINGS.UI.WELCOMEMESSAGEBODY
+msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
+msgid ""
+"I've awoken at the target location, but colonization efforts have already "
+"hit a hitch. I was supposed to land on the planet's surface, but became "
+"trapped many miles underground instead.\n"
+"\n"
+"Although the conditions are not ideal, it's imperative that I establish a "
+"colony here and begin mounting efforts to escape."
+msgstr ""
+"我已在目标地点醒来，但殖民地遇到了障碍。我本应该落在这个星球的表面，但实际被"
+"困在了地表数英里之下……\n"
+"\n等等，我在星球表面？那没事了。"
+
+#. STRINGS.UI.WELCOMEMESSAGEBODY_SPACEDOUT
+msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY_SPACEDOUT"
+msgid ""
+"The asteroid we call home has collided with an anomalous planet, decimating "
+"our colony. Rebuilding it is of the utmost importance.\n"
+"\n"
+"I've detected a new cluster of material-rich planetoids in nearby space. If "
+"I can guide the Duplicants through the perils of space travel, we could "
+"build a colony even bigger and better than before."
+msgstr ""
+"把殖民地建在地下的蠢货们已经遭受了毁灭性打击。愿他们下辈子认识到阳光的美妙。\n"
+"\n我检测到周围太空中存在资源丰富的小行星群。如果我能引导复制人进行太空旅行，躲"
+"避危险，我们就能建造比蠢货们更大更好的殖民地。"
+
+#. STRINGS.BUILDINGS.PREFABS.TORCH.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TORCH.NAME"
+msgid "Wall Torch"
+msgstr "壁挂火炬"
+
+#. STRINGS.BUILDINGS.PREFABS.TORCH.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TORCH.DESC"
+msgid "Wall Torch provide the basic <link=\"LIGHT\">lighting</link> for duplicants."
+msgstr "壁挂火炬为复制人提供基本的<link=\"LIGHT\">照明</link>。"
+
+#. STRINGS.BUILDINGS.PREFABS.TORCH.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TORCH.EFFECT"
+msgid "Wall Torch consume <link=\"OXYGEN\">Oxygen</link> to maintain combustion.\n"
+"After burning out, a piece of <link=\"CARBON\">Coal</link> be left."
+msgstr "壁挂火炬消耗<link=\"OXYGEN\">氧气</link>维持燃烧。\n"
+"燃尽后，壁挂火炬会留下一小块<link=\"CARBON\">煤炭</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.TORCHOXY.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TORCHOXY.NAME"
+msgid "Pig Torch"
+msgstr "猪火炬"
+
+#. STRINGS.BUILDINGS.PREFABS.TORCHOXY.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TORCHOXY.DESC"
+msgid "Wall Torch provide the basic <link=\"LIGHT\">lighting</link> for duplicants."
+msgstr "猪火炬可以在任何地方燃烧。"
+
+#. STRINGS.BUILDINGS.PREFABS.TORCHOXY.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TORCHOXY.EFFECT"
+msgid "Pig Torch designed to burn in outer space.\n"
+"After burning out, a piece of <link=\"REFINEDCARBON\">Refined Carbon</link> be left."
+msgstr "猪火炬被设计成可以在太空燃烧\n"
+"燃尽后，猪火炬会留下一小块<link=\"REFINEDCARBON\">精炼碳</link>"
+
+#. STRINGS.SUBWORLDS.TERR.NAME
+msgctxt "STRINGS.SUBWORLDS.TERR.NAME"
+msgid "Terr"
+msgstr "类地"
+
+#. STRINGS.SUBWORLDS.TERR.DESC
+msgctxt "STRINGS.SUBWORLDS.TERR.DESC"
+msgid "The Terr Biome contains various sub-biomes. The underground river, warm "
+"sunlight and plenty of plants are also helpful to get your colony up and running."
+msgstr "类地生态包含许多不同的小生态。地下河、温暖的阳光和众多植物能帮助殖民地快速发展。"
+
+#. STRINGS.SUBWORLDS.TERR.UTILITY
+msgctxt "STRINGS.SUBWORLDS.TERR.UTILITY"
+msgid "<link=\"OXYGEN\">Oxygen</link> in the atmosphere and oxyfern are enough to "
+"sustain your colony for a long time.\n\n"
+"<link=\"LIGHT\">Sunlight</link> provides a reliable light source in day time.\n\n"
+"This biome is the perfect starting spot for my colony to establish a base full of "
+"essentials, from which they can then venture out and explore."
+msgstr "氧齿蕨和大气中的<link=\"OXYGEN\">氧气</link>可以维持长时间的呼吸\n\n"
+"<link=\"LIGHT\">阳光</link>是最可靠的光源.\n\n"
+"这片生态是建立我的殖民地的完美起点，从这里开始复制人可以慢慢向外探索。"

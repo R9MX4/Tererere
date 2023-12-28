@@ -1,0 +1,48 @@
+# keys to remove from in-memory structure when this file is loaded
+remove: [] 
+# elements to add from in-memory structure when this file is loaded
+add:
+  Terr_RockySoft:
+    - element: SandStone
+      weight: 1
+    - element: IgneousRock
+      weight: 1
+    - element: Sand
+      weight: 1
+  Terr_RockyHard:
+    - element: Granite
+      weight: 1
+    - element: Carbon
+      weight: 0.5
+    - element: Lime
+      weight: 0.5
+  Terr_SeaSoft:
+    - element: IgneousRock
+      weight: 1
+    - element: Algae
+      weight: 1
+    - element: Granite
+      weight: 0.5
+    - element: Salt
+      weight: 0.5
+  Terr_SeaHard:
+    - element: IgneousRock
+      weight: 1
+    - element: Granite
+      weight: 1
+    - element: Lime
+      weight: 0.5
+    - element: Salt
+      weight: 0.5
+  Terr_OganicSoft:
+    - element: SedimentaryRock
+      weight: 1
+    - element: Dirt
+      weight: 1
+    - element: Algae
+      weight: 0.5
+    - element: Fertilizer
+      weight: 0.5
+  Terr_Abyss:
+    - element: Katairite
+      weight: 1
