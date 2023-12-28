@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r7">
+    <folder id="0" name="flames">
+        <file id="0" name="flames_wide_0.png" width="196" height="340" pivot_x="0.416707" pivot_y="0.0647809"/>
+        <file id="1" name="flames_wide_2.png" width="180" height="312" pivot_x="0.429164" pivot_y="0.0735593"/>
+        <file id="2" name="flames_wide_4.png" width="180" height="328" pivot_x="0.437636" pivot_y="0.0653979"/>
+        <file id="3" name="flames_wide_6.png" width="176" height="328" pivot_x="0.384088" pivot_y="0.0663125"/>
+        <file id="4" name="flames_wide_8.png" width="172" height="336" pivot_x="0.39491" pivot_y="0.0662961"/>
+        <file id="5" name="flames_wide_10.png" width="168" height="292" pivot_x="0.390622" pivot_y="0.0684093"/>
+        <file id="6" name="flames_wide_12.png" width="160" height="312" pivot_x="0.386091" pivot_y="0.0685913"/>
+        <file id="7" name="flames_wide_14.png" width="172" height="328" pivot_x="0.408573" pivot_y="0.0690564"/>
+        <file id="8" name="pigtorch01_0.png" width="176" height="480" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="pigtorch01_1.png" width="176" height="480" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="place_0.png" width="176" height="480" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="ui_0.png" width="80" height="120" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="torchoxy">
+        <animation id="0" name="on" length="480" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="30">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="60">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="3" time="90">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="4" time="120">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="5" time="150">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="6" time="180">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="7" time="210">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+                <key id="8" time="240">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+                <key id="9" time="270">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="5" z_index="1"/>
+                </key>
+                <key id="10" time="300">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="5" z_index="1"/>
+                </key>
+                <key id="11" time="330">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="6" z_index="1"/>
+                </key>
+                <key id="12" time="360">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="6" z_index="1"/>
+                </key>
+                <key id="13" time="390">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="7" z_index="1"/>
+                </key>
+                <key id="14" time="420">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="7" z_index="1"/>
+                </key>
+                <key id="15" time="450">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="8" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flames_wide">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="1" time="30" spin="0">
+                    <object folder="0" file="2" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="2" time="90" spin="0">
+                    <object folder="0" file="3" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="3" time="150" spin="0">
+                    <object folder="0" file="4" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="4" time="210" spin="0">
+                    <object folder="0" file="5" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="5" time="270" spin="0">
+                    <object folder="0" file="6" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="6" time="330" spin="0">
+                    <object folder="0" file="7" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="7" time="390" spin="0">
+                    <object folder="0" file="0" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+                <key id="8" time="450" spin="0">
+                    <object folder="0" file="1" x="-2" y="124" angle="0" scale_x="0.25" scale_y="0.25"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="pigtorch01_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="-26" y="137" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="off" length="30" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="pigtorch01_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="-26" y="137" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="out" length="30" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="pigtorch01_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="-26" y="137" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="ui" length="30" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ui_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="11" x="-38" y="110" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="place" length="30" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="place_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-26" y="137" angle="0" scale_x="0.3" scale_y="0.3"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

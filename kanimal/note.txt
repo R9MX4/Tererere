@@ -1,0 +1,6 @@
+Put kanimal tools in this folder
+
+ui_0.png is necessary, height 120
+ui anime is not
+
+No direct method to add a sprite. Refer to function [Add_Spirte]
